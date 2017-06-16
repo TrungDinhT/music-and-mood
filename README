@@ -1,0 +1,18 @@
+//make file
+export LD_LIBRARY_PATH=$HOME/affdex-sdk/lib
+g++ name.cpp name -o -std=c++11 -I$HOME/affdex-sdk/include -L$HOME/affdex-sdk/lib -l affdex-native
+
+//Correct path
+std::string classifierPath="/home/thanhtrungdinh/affdex-sdk/data" 
+
+//commande terminal
+sudo update-alternatives --config gcc //switch gcc version
+cheese //test camera
+lsusb //xem camera
+
+
+//Problems
+id camera not right
+
+//Licence
+MIT
